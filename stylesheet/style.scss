@@ -1,13 +1,17 @@
 @font-face {
-  font-family: NorseBold;
-  src: url(/assets/norse-bold-webfont.woff);
+  font-family: 'norsebold';
+  src:
+    url('/assets/norse-bold-webfont.woff2') format('woff2'),
+    url('/assets/norse-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 $border-check: 1px solid crimson;
 $ff-poppins: 'Poppins', sans-serif;
-$ff-norsebold: 'NorseBold', sans-serif;
+$ff-norsebold: 'norsebold', sans-serif;
 
 @mixin margin-sides-auto {
   margin-left: auto;
@@ -97,7 +101,6 @@ body {
   width: 65%;
   float: right;
   overflow-y: scroll;
-
 
   .top {
     background-color: #f9fafb;
