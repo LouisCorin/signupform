@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @font-face {
   font-family: "norsebold";
-  src: url("/assets/norse-bold-webfont.woff2") format("woff2"), url("/assets/norse-bold-webfont.woff") format("woff");
+  src: url("norse-bold-webfont.woff2") format("woff2"), url("norse-bold-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
