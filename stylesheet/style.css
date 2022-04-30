@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@font-face {
+  font-family: NorseBold;
+  src: url(/assets/Norse-Bold.otf);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+}
+
+.lside {
+  background-image: url("https://picsum.photos/1000");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 35%;
+  position: fixed;
+  float: left;
+  height: 100%;
+}
+.lside .container2 {
+  position: relative;
+}
+.lside .container2 .transbg {
+  background-color: black;
+  opacity: 0.5;
+  height: 120px;
+  margin-top: 5rem;
+}
+.lside .container2 .imgholder {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: -6.5rem;
+  left: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.lside .container2 .imgholder img {
+  width: auto;
+  height: 100px;
+}
+.lside .container2 .imgholder span {
+  margin-left: 0.5rem;
+  font-family: "NorseBold", sans-serif;
+  font-size: 5rem;
+  color: white;
+}
+.lside .container2 a {
+  color: white;
+  text-decoration: underline;
+}
+.lside .credit {
+  display: block;
+  position: fixed;
+  bottom: 3.5%;
+  left: 12.5%;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rside {
+  width: 65%;
+  float: right;
+  overflow-y: scroll;
+}
+.rside .top {
+  background-color: #f9fafb;
+}
+.rside .top h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  padding-top: 6rem;
+}
+.rside .top h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.rside .form {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  z-index: 1;
+}
+.rside .form ul {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 80%;
+}
+.rside .form li {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.rside .form li label {
+  font-size: 0.75rem;
+  letter-spacing: 0.15rem;
+  padding-bottom: 0.5rem;
+}
+.rside .form li input {
+  height: 30px;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  padding: 0.5rem;
+}
+.rside .form li input:focus {
+  border: 1px solid blue;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+  outline: none;
+}
+.rside .form li .error {
+  display: none;
+  color: #c13838;
+  font-size: 0.75rem;
+}
+.rside .bot {
+  background-color: #f9fafb;
+  width: 100vw;
+  padding-bottom: 10rem;
+}
+.rside .bot button {
+  font-family: "Poppins", sans-serif;
+  margin-top: 2rem;
+  background-color: #596d48;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.75rem 3rem 0.75rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  font-size: 1rem;
+  box-shadow: 4px 8px 8px 1px lightgrey;
+  cursor: pointer;
+  z-index: 1;
+}
+.rside .bot h3 {
+  margin-top: 2rem;
+  font-family: "Poppins", sans-serif;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+.rside .bot a {
+  color: #596d48;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
